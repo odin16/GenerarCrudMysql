@@ -1,0 +1,49 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  font: 1.01em "Segoe UI light";
+}
+h2{
+  font-size: 2em;
+}
+.principalForm{
+  padding: 1em;
+}
+.form .form-center div{
+  margin: 0px 0px -1px -1px;
+  float: left;
+  width: 33.4%;
+  padding: 1em;
+  box-sizing: border-box;
+  border: 1px solid rgba(0,0,0,.1);
+}
+.form div input[type="checkbox"]{
+  margin-bottom: .5em;
+}
+.input{
+  padding: 1em;
+}
+input{
+  padding: .2em .5em;
+}
+.input div{
+  padding: .5em 0em;
+}
+.input div input[type="submit"]{
+  cursor: pointer;
+}
+.input div input[type="text"]{
+  width: 20em;
+}
+.exito{
+  background-color: rgb(49, 150, 74);
+  color: #FFF;
+  padding: 1em;
+  text-align: center;
+}
+.error{
+  background-color: rgb(101, 25, 25);
+  color: #FFF;
+  padding: 1em;
+  text-align: center;
+}
